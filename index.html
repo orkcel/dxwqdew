@@ -11,30 +11,149 @@
       <section class="form-elements-section">
         <div class="form-elements-content">
           <h3>Genteella Form Elements</h3>
+          <br />
+          <div class="left-column">
+            <div class="first-left-container">
+              <h4>Form Design</h4>
 
-        <div class="right-column">
-          <h4>Form Basic Elements</h4>
+              <div class="signup-wrapper">
+                <input name="name" type="text" placeholder="Name" />
+                <input name="lastname" type="text" placeholder="Last Name" />
+                <input name="email" type="email" placeholder="Email" />
+                <input name="phone" type="number" placeholder="Phone" />
+              </div>
+
+              <div class="default-input-wrapper">
+                <p>Default Input</p>
+
+                <input name="name" type="text" placeholder="Default Input" />
+                <p>Disabled Input</p>
+                <input
+                  name="name"
+                  type="text"
+                  disabled
+                  placeholder="Disabled Input"
+                />
+
+                <p>Readonly Input</p>
+                <input
+                  name="name"
+                  type="text"
+                  readonly
+                  placeholder="Readonly Input"
+                />
+                <p>Date of Birth*</p>
+                <input name="name" type="text" placeholder="Somewhere" />
+              </div>
+
+              <div class="button-wrapper">
+                <div class="default-button">
+                  <div class="button-fill"></div>
+                  <p>Cancel</p>
+                </div>
+                <div class="default-button">
+                  <div class="button-fill"></div>
+                  <p>Submit</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="second-left-container">
+              <div class="rating-wrapper">
+                <h4>Star Rating</h4>
+                <br />
+                <h5>Star Rating Hover and clicks on star</h5>
+                <p>You gave a rating of 0 star(s)</p>
+                <p>
+                  Also you can give a default rating by adding attribute
+                  data-rating
+                </p>
+                <p>You gave a rating of 4 star(s)</p>
+              </div>
+            </div>
+
+            <div class="third-left-container">
+              <h4>Registration Form Click to Validate</h4>
+              <div class="registration-form-wrapper">
+                <div class="fullname-email">
+                  <span>Full Name*: </span>
+                  <input
+                    type="text"
+                    name="full-name"
+                    id=""
+                    placeholder="Full Name"
+                  />
+
+                  <span>Email*: </span>
+                  <input name="email" type="email" placeholder="Email" />
+                </div>
+
+                <div class="gender">
+                  <span>Gender*: </span>
+                  <div class="gender-r">
+                    <div class="gender-f">
+                      F: <input type="radio" name="sex" value="Female" />
+                    </div>
+                    <div class="gender-m">
+                      M: <input type="radio" name="sex" value="Male" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hobbies-wrapper">
+                  <span>Hobbies (2 minimum): </span><br />
+                  <div class="hobbies">
+                    <input type="checkbox" /> <span>Skiing</span>
+                    <input type="checkbox" /> <span>Runing</span>
+                    <input type="checkbox" /> <span>Eating</span>
+                    <input type="checkbox" /> <span>Sleeping</span>
+                  </div>
+                </div>
+
+                <div class="heard-wrapper">
+                  <p>Heard us by*:</p>
+                  <div class="heard-from">
+                    <label for="person"></label>
+                    <select id="person" name="person">
+                      <option value="0">Choose...</option>
+                      <option value="1">Orkhan</option>
+                      <option value="2">Sadigkhan</option>
+                      <option value="3">Fidan</option>
+                      <option value="4">Simon</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="message">
+
+                  <p>Message (20 chars min, 100 max):</p>
+                  <textarea
+                    name="text"
+                    id="Message"
+                    cols="50"
+                    rows="3"
+                    minlength="20"
+                    maxlength="100"
+                  ></textarea>
+                  <div class="button-wrapper">
+                    <div class="default-button">
+                      <div class="button-fill"></div>
+                      <p>Validate form</p>
+                    </div>
+                  </div>
+                </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="right-column">
+            <div class="first-right-container">
+              <h4>Form Basic Elements</h4>
+            </div>
+          </div>
         </div>
-
-        <div class="left-column">
-          <h4>Form Design</h4>
-          <div class="signup-wrapper">
-            <input name="name" type="text" placeholder="Name">
-            <input name="lastname" type="text" placeholder="Last Name">
-            <input name="email" type="email" placeholder="Email">
-            <input name="phone" type="number" placeholder="Phone">
-          </div>
-          <div class="default-input-wrapper">
-            <input name="name" type="text" placeholder="Default Input">
-            <input name="name" type="text" disabled placeholder="Disabled Input">
-            <input name="name" type="text" readonly placeholder="Readonly Input">
-            <input name="name" type="text" placeholder="Somewhere">
-
-          </div>
-
-      </div>
-
-        </div>    
       </section>
 
       <!-- GRID INPUT SECTION -->
@@ -42,6 +161,16 @@
         <div class="grid-input-content">
           <h3>Form Input - Grid</h3>
           <div class="input-wrapper">
+            <input type="text" placeholder="Type some text" />
+            <input type="text" placeholder="Type some text" />
+            <input type="text" placeholder="Type some text" />
+            <input type="text" placeholder="Type some text" />
+            <input type="text" placeholder="Type some text" />
+            <input type="text" placeholder="Type some text" />
+            <input type="text" placeholder="Type some text" />
+            <input type="text" placeholder="Type some text" />
+            <input type="text" placeholder="Type some text" />
+            <input type="text" placeholder="Type some text" />
             <input type="text" placeholder="Type some text" />
             <input type="text" placeholder="Type some text" />
             <input type="text" placeholder="Type some text" />
